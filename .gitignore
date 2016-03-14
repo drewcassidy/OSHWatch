@@ -1,3 +1,8 @@
+## OS
+# Mac OS
+.[Dd][Ss]_[Ss]store
+
+## C++
 # Compiled Object files
 *.slo
 *.lo
@@ -26,3 +31,16 @@
 *.exe
 *.out
 *.app
+
+## ARM
+# Executables
+*.hex
+*.bin
+*.map
+
+## MBed
+# Modules
+yotta_modules
+yotta_targets
+build
+.yotta.json
