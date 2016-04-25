@@ -44,3 +44,13 @@ yotta_modules
 yotta_targets
 build
 .yotta.json
+
+## Eagle
+eagle.epf
+*.s#?
+*.b#?
+*.l#?
+*.lck
+*.log
+*.info
+*.eps
