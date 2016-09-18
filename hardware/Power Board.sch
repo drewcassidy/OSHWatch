@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -396,103 +396,6 @@ Generic symbol for the battery input to a system.</description>
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Microchip_By_element14_Batch_1">
-<description>Developed by element14 :&lt;br&gt;
-element14 CAD Library consolidation.ulp
-at 30/07/2012 11:22:31</description>
-<packages>
-<package name="SOT95P280X110-5N">
-<smd name="1" x="-1.1684" y="0.9398" dx="1.3208" dy="0.5588" layer="1"/>
-<smd name="2" x="-1.1684" y="0" dx="1.3208" dy="0.5588" layer="1"/>
-<smd name="3" x="-1.1684" y="-0.9398" dx="1.3208" dy="0.5588" layer="1"/>
-<smd name="4" x="1.1684" y="-0.9398" dx="1.3208" dy="0.5588" layer="1"/>
-<smd name="5" x="1.1684" y="0.9398" dx="1.3208" dy="0.5588" layer="1"/>
-<wire x1="-0.254" y1="-1.4478" x2="0.254" y2="-1.4478" width="0.1524" layer="21"/>
-<wire x1="0.7874" y1="-0.3302" x2="0.7874" y2="0.3302" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="1.4478" x2="-0.254" y2="1.4478" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="1.1938" x2="-0.1778" y2="1.1938" width="0" layer="21" curve="-71"/>
-<text x="-2.0066" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<wire x1="-0.7874" y1="-1.4478" x2="0.7874" y2="-1.4478" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="-1.4478" x2="0.7874" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="-1.1938" x2="0.7874" y2="-0.6858" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="-0.6858" x2="0.7874" y2="0.6858" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="1.4478" x2="0.3048" y2="1.4478" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="1.4478" x2="-0.7874" y2="1.4478" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="1.4478" x2="-0.7874" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="1.1938" x2="-0.7874" y2="0.6858" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="0.6858" x2="-0.7874" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="0.254" x2="-0.7874" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="-0.254" x2="-0.7874" y2="-0.6858" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="1.1938" x2="-1.397" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="1.1938" x2="-1.397" y2="0.6858" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="0.6858" x2="-0.7874" y2="0.6858" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="0.254" x2="-1.397" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="0.254" x2="-1.397" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-0.254" x2="-0.7874" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="-1.4478" x2="-0.7874" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="-1.1938" x2="-0.7874" y2="-0.6858" width="0.1524" layer="51"/>
-<wire x1="-0.7874" y1="-0.6858" x2="-1.397" y2="-0.6858" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-0.6858" x2="-1.397" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-1.1938" x2="-0.7874" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="-1.1938" x2="1.397" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="-1.1938" x2="1.397" y2="-0.6858" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="-0.6858" x2="0.7874" y2="-0.6858" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="1.4478" x2="0.7874" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="1.1938" x2="0.7874" y2="0.6858" width="0.1524" layer="51"/>
-<wire x1="0.7874" y1="0.6858" x2="1.397" y2="0.6858" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="0.6858" x2="1.397" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="1.1938" x2="0.7874" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0" layer="51" curve="-180"/>
-<text x="-2.0066" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-4.7752" y="1.7018" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.6642" y="-4.0386" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="MCP1603T-330I/OS">
-<pin name="VIN" x="-25.4" y="2.54" length="middle" direction="pwr"/>
-<pin name="~SHDN" x="-25.4" y="-2.54" length="middle" direction="in"/>
-<pin name="LX" x="-25.4" y="-5.08" length="middle" direction="in"/>
-<pin name="GND" x="-25.4" y="-10.16" length="middle" direction="pas"/>
-<pin name="VFB/VOUT" x="25.4" y="2.54" length="middle" direction="out" rot="R180"/>
-<wire x1="-20.32" y1="7.62" x2="-20.32" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="-20.32" y1="-15.24" x2="20.32" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="20.32" y1="-15.24" x2="20.32" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="20.32" y1="7.62" x2="-20.32" y2="7.62" width="0.4064" layer="94"/>
-<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.715" y="-19.431" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MCP1603T-330I/OS">
-<description>2.0 MHz, 500 mA Synchronous Buck Regulator</description>
-<gates>
-<gate name="A" symbol="MCP1603T-330I/OS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P280X110-5N">
-<connects>
-<connect gate="A" pin="GND" pad="2"/>
-<connect gate="A" pin="LX" pad="5"/>
-<connect gate="A" pin="VFB/VOUT" pad="4"/>
-<connect gate="A" pin="VIN" pad="1"/>
-<connect gate="A" pin="~SHDN" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="MCP1603T-330I/OS" constant="no"/>
-<attribute name="OC_FARNELL" value="1439373" constant="no"/>
-<attribute name="OC_NEWARK" value="22K1332" constant="no"/>
-<attribute name="PACKAGE" value="SOT23-5" constant="no"/>
-<attribute name="SUPPLIER" value="Microchip" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -2030,6 +1933,71 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 </deviceset>
 </devicesets>
 </library>
+<library name="texas-custom">
+<description>Texas Instruments components
+Jason Wright (jpwright), last updated 2/11/14</description>
+<packages>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LM3671">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="VIN" x="-12.7" y="5.08" length="middle"/>
+<pin name="GND" x="-12.7" y="0" length="middle"/>
+<pin name="EN" x="-12.7" y="-5.08" length="middle"/>
+<pin name="FB" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="SW" x="12.7" y="5.08" length="middle" rot="R180"/>
+<text x="-7.62" y="10.16" size="1.778" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM3671">
+<description>Texas Instruments LM3671, LM3671Q 2MHz, 600mA Step-Down DC-DC Converter</description>
+<gates>
+<gate name="G$1" symbol="LM3671" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2042,7 +2010,6 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <parts>
 <part name="X1" library="con-jst2" deviceset="?M02B-SRSS-TB" device="S" value="Battery 150mAh"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="U2" library="Microchip_By_element14_Batch_1" deviceset="MCP1603T-330I/OS" device=""/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="4.7µF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
@@ -2060,14 +2027,18 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10kΩ"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10kΩ"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="V_USB" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="4.7µF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="Connectors" deviceset="USB-MICRO-B" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10kΩ"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10kΩ"/>
+<part name="U2" library="texas-custom" deviceset="LM3671" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2077,7 +2048,6 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <instance part="X1" gate="-1" x="104.14" y="55.88"/>
 <instance part="X1" gate="-2" x="104.14" y="53.34"/>
 <instance part="GND1" gate="1" x="99.06" y="48.26"/>
-<instance part="U2" gate="A" x="35.56" y="35.56" rot="MR0"/>
 <instance part="C2" gate="G$1" x="7.62" y="73.66"/>
 <instance part="GND3" gate="1" x="7.62" y="63.5"/>
 <instance part="SUPPLY5" gate="G$1" x="99.06" y="58.42"/>
@@ -2086,26 +2056,30 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <instance part="U1" gate="G$1" x="35.56" y="78.74"/>
 <instance part="C1" gate="G$1" x="53.34" y="73.66"/>
 <instance part="GND2" gate="1" x="53.34" y="66.04"/>
-<instance part="SUPPLY3" gate="G$1" x="66.04" y="40.64"/>
-<instance part="L1" gate="G$1" x="35.56" y="10.16" rot="R270"/>
-<instance part="GND4" gate="1" x="63.5" y="20.32"/>
-<instance part="SUPPLY4" gate="G$1" x="2.54" y="40.64"/>
+<instance part="SUPPLY3" gate="G$1" x="15.24" y="40.64"/>
+<instance part="L1" gate="G$1" x="53.34" y="38.1" rot="R90"/>
+<instance part="GND4" gate="1" x="7.62" y="27.94"/>
+<instance part="SUPPLY4" gate="G$1" x="63.5" y="40.64"/>
 <instance part="X2" gate="-1" x="104.14" y="88.9"/>
 <instance part="X2" gate="-2" x="104.14" y="86.36"/>
 <instance part="X2" gate="-3" x="104.14" y="83.82"/>
 <instance part="X2" gate="-4" x="104.14" y="81.28"/>
 <instance part="SUPPLY6" gate="G$1" x="99.06" y="91.44"/>
 <instance part="GND5" gate="1" x="99.06" y="76.2"/>
-<instance part="SUPPLY7" gate="G$1" x="91.44" y="99.06"/>
-<instance part="GND6" gate="1" x="91.44" y="66.04"/>
-<instance part="R1" gate="G$1" x="91.44" y="91.44" rot="R90"/>
-<instance part="R2" gate="G$1" x="91.44" y="76.2" rot="R90"/>
+<instance part="SUPPLY7" gate="G$1" x="81.28" y="101.6"/>
+<instance part="GND6" gate="1" x="81.28" y="66.04"/>
+<instance part="R1" gate="G$1" x="81.28" y="93.98" rot="R90"/>
+<instance part="R2" gate="G$1" x="81.28" y="76.2" rot="R90"/>
 <instance part="SUPPLY8" gate="G$1" x="0" y="104.14"/>
 <instance part="GND7" gate="1" x="0" y="86.36"/>
-<instance part="C3" gate="G$1" x="2.54" y="30.48"/>
-<instance part="GND8" gate="1" x="2.54" y="22.86"/>
+<instance part="C3" gate="G$1" x="63.5" y="20.32"/>
+<instance part="GND8" gate="1" x="63.5" y="12.7"/>
 <instance part="J1" gate="G$1" x="-12.7" y="96.52"/>
 <instance part="GND9" gate="1" x="-25.4" y="91.44"/>
+<instance part="GND10" gate="1" x="88.9" y="66.04"/>
+<instance part="R3" gate="G$1" x="88.9" y="93.98" rot="R90"/>
+<instance part="R4" gate="G$1" x="88.9" y="76.2" rot="R90"/>
+<instance part="U2" gate="G$1" x="30.48" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -2129,12 +2103,6 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <junction x="7.62" y="68.58"/>
 </segment>
 <segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="63.5" y1="22.86" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="GND"/>
-<wire x1="63.5" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="-4" pin="S"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="101.6" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
@@ -2143,7 +2111,7 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="68.58" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="68.58" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -2158,7 +2126,7 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="27.94" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="17.78" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -2166,6 +2134,17 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <wire x1="-25.4" y1="93.98" x2="-25.4" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="S"/>
 <wire x1="-25.4" y1="96.52" x2="-22.86" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="68.58" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="17.78" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="33.02" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -2185,19 +2164,19 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <junction x="53.34" y="81.28"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="VIN"/>
-<wire x1="60.96" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="38.1" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="~SHDN"/>
-<wire x1="60.96" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="33.02" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<junction x="66.04" y="38.1"/>
-<pinref part="SUPPLY3" gate="G$1" pin="V_BATT"/>
-</segment>
-<segment>
 <pinref part="SUPPLY7" gate="G$1" pin="V_BATT"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="99.06" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="101.6" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<pinref part="SUPPLY3" gate="G$1" pin="V_BATT"/>
+<wire x1="17.78" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="38.1" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="EN"/>
+<wire x1="17.78" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<junction x="15.24" y="38.1"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -2217,51 +2196,41 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <pinref part="J1" gate="G$1" pin="5V"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="10.16" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="LX"/>
-<wire x1="66.04" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VCC" class="0">
-<segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="VFB/VOUT"/>
-<wire x1="7.62" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
-<wire x1="2.54" y1="40.64" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<junction x="7.62" y="38.1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="35.56" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
-<junction x="2.54" y="38.1"/>
-</segment>
 <segment>
 <pinref part="X2" gate="-1" pin="S"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
 <wire x1="101.6" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="88.9" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="38.1" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
+<wire x1="63.5" y1="38.1" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="FB"/>
+<wire x1="43.18" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="27.94" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
+<junction x="63.5" y="38.1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="25.4" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<junction x="63.5" y="27.94"/>
+</segment>
 </net>
 <net name="IND" class="0">
 <segment>
 <pinref part="X2" gate="-3" pin="S"/>
 <wire x1="101.6" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<label x="93.98" y="83.82" size="1.778" layer="95"/>
+<label x="83.82" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="86.36" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="83.82" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<junction x="91.44" y="83.82"/>
-<label x="93.98" y="83.82" size="1.778" layer="95"/>
+<wire x1="81.28" y1="88.9" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="83.82" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
+<junction x="81.28" y="83.82"/>
+<label x="83.82" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CHG" class="0">
@@ -2271,9 +2240,27 @@ SOT-23 Lithium Polymer charging IC. Schematic element and footprint proven. Spar
 <label x="17.78" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="101.6" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
+<label x="88.9" y="101.6" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="CHG_2" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="88.9" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="86.36" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<junction x="88.9" y="86.36"/>
 <pinref part="X2" gate="-2" pin="S"/>
-<wire x1="101.6" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
-<label x="93.98" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="SW"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
