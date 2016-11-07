@@ -2,6 +2,10 @@
 # Mac OS
 .[Dd][Ss]_[Ss]store
 
+## Sublimetext
+*.sublime-project
+*.sublime-workspace
+
 ## C++
 # Compiled Object files
 *.slo
