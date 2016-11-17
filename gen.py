@@ -15,8 +15,8 @@ for file in os.listdir("bitmaps"):
         dest.write("const uint8_t " + file + "[" + str(size) + "] = {\n   ")
 
         counter = 3
-        byte = ord(source.read(1))
-        while source.tell() != size:
+        for x in range(0,size):
+            byte = ord(source.read(1))
             counter = counter + 1
             if counter == 8:
                 dest.write("\n   ")
@@ -24,10 +24,8 @@ for file in os.listdir("bitmaps"):
 
             dest.write(" 0x" + format(byte, "02X"))
 
-            if source.tell() != size - 1:
+            if x != size - 1:
                 dest.write(",")
-            byte = ord(source.read(1))
-
         dest.write("\n};\n\n")
 
 

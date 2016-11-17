@@ -1,4 +1,4 @@
-#include "../screen.h"
+#include "screen.h"
 #include "watchface.h"
 
 Watchface::Watchface(Nokia_5110* display) {
@@ -6,7 +6,12 @@ Watchface::Watchface(Nokia_5110* display) {
 }
 
 void Watchface::draw() {
-    _display->drawWBitmap(Digit0, 5, 5);
+    _display->drawWBitmap(IconCalendar, 5, 5);
+    _display->printString("Class", 22, 5);
+    _display->printString("9:30 AM", 22, 13);
+    _display->drawWBitmap(IconMessage, 5, 24);
+    _display->printString("hintss:", 22, 24);
+    _display->printString("moooooo", 22, 32);
     _display->display();
 }
 
