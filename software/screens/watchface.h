@@ -1,8 +1,8 @@
 #ifndef WATCHFACE_H
 #define WATCHFACE_H
 
-#include "bitmaps.h"
 #include "screen.h"
+#include "bitmaps.h"
 
 class Watchface : public Screen {
   public:
