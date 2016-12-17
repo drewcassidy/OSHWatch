@@ -5,7 +5,7 @@
 
 int main() {
     Nokia_5110 lcd(LCD_CE, LCD_RST, LCD_DC, LCD_MOSI, LCD_CLK);
-    lcd.init(0x30, 4);
+    lcd.init(0x2C, 4);
     lcd.clearBuffer();
     Watchface watchface(&lcd);
     watchface.draw();
