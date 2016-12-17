@@ -1,0 +1,7 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.lf_clock_src": "NRF_LF_SRC_RC"
+        }
+    }
+}
