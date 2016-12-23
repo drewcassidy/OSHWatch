@@ -4,12 +4,14 @@
 Watchface::Watchface(Nokia_5110 *display) { _display = display; }
 
 void Watchface::draw() {
-    _display->drawWBitmap(IconCalendar, 5, 5);
-    _display->printString("Class", 22, 5);
-    _display->printString("9:30 AM", 22, 13);
-    _display->drawWBitmap(IconMessage, 5, 24);
-    _display->printString("hintss:", 22, 24);
-    _display->printString("moooooo", 22, 32);
+    _display->draw_line(20, 30, 20, 40);
+    _display->draw_line(20, 40, 20, 30);
+    _display->draw_line(20, 0, 20, 30);
+    _display->draw_line(20, 10, 20, 40);
+    _display->draw_line(20, 30, 20, 0);
+    _display->draw_line(20, 40, 20, 10);
+    _display->draw_line(20, 0, 20, 10);
+    _display->draw_line(20, 10, 20, 0);
     _display->display();
 }
 
