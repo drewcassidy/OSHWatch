@@ -1,7 +1,7 @@
 #include "screen.h"
 #include "watchface.h"
 
-Watchface::Watchface(Nokia_5110 *display) { _display = display; }
+Watchface::Watchface(Nokia5110 *display) { _display = display; }
 
 void Watchface::draw() {
     _display->draw_line(20, 30, 20, 40);

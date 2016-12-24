@@ -4,7 +4,7 @@
 #include "pins.h"
 
 int main() {
-    Nokia_5110 lcd(LCD_CE, LCD_RST, LCD_DC, LCD_MOSI, LCD_CLK);
+    Nokia5110 lcd(LCD_CE, LCD_RST, LCD_DC, LCD_MOSI, LCD_CLK);
     lcd.init(0x2C, 4);
     lcd.clear_buffer();
     Watchface watchface(&lcd);
