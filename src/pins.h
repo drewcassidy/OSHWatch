@@ -1,5 +1,5 @@
-#ifndef	PINS_H
-#define	PINS_H
+#ifndef	OSHWATCH_PINS_H
+#define	OSHWATCH_PINS_H
 
 #define	CHG 		(p1)
 #define IND			(p2)
@@ -12,7 +12,7 @@
 #define ACC_INT1    (p13)
 #define ACC_INT2    (p14)
 #define SDA         (p15)
-#define SDL         (p16)
+#define SCL         (p16)
 #define BTN_BACK    (p17)
 #define VIB         (p21)
 #define BTN_SELECT  (p25)
@@ -21,4 +21,4 @@
 #define BTN_RIGHT   (p28)
 #define BTN_LEFT    (p29)
 
-#endif
+#endif //OSHWATCH_PINS_H

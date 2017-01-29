@@ -1,21 +1,26 @@
-#ifndef WATCHFACE_H
-#define WATCHFACE_H
+#ifndef OSHWATCH_WATCHFACE_H
+#define OSHWATCH_WATCHFACE_H
 
-#include "screen.h"
+#include "Screen.h"
 #include "bitmaps.h"
 
 #include <mbed.h>
 #include <Nokia5110.h>
 
+namespace OSHWatch {
+
 class Watchface : public Screen {
-  public:
-    Watchface(Nokia5110 *display);
+public:
+    Watchface();
+
     void draw();
+
     void processInput(uint8_t button);
 
-  private:
+private:
     const uint8_t *getDigit(uint8_t value);
-    Nokia5110 *_display;
+    bool _colon = false;
 };
+}
 
-#endif
+#endif //OSHWATCH_WATCHFACE_H

@@ -1,7 +1,9 @@
-#ifndef BITMAPS_H
-#define BITMAPS_H
+#ifndef OSHWATCH_BITMAPS_H
+#define OSHWATCH_BITMAPS_H
 
 #include <stdint.h>
+
+namespace OSHWatch {
 
 extern const uint8_t Digit0[55];
 extern const uint8_t Digit1[55];
@@ -29,4 +31,5 @@ extern const uint8_t IconTumblr[36];
 extern const uint8_t IconTwitter[36];
 extern const uint8_t IconYoutube[36];
 
-#endif
+}
+#endif //OSHWATCH_BITMAPS_H
