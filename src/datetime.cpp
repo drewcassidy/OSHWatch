@@ -7,6 +7,18 @@ namespace OSHWatch {
 
 datetime_t *_curr_datetime = (datetime_t *) malloc(sizeof(datetime_t));
 
+const char *months[13] = {
+    "????month", "January", "February",
+    "March", "April", "May", "June",
+    "July", "August", "September",
+    "October", "November", "December"
+};
+
+const char *days[8] = {
+    "??????day", "Monday", "Tuesday", "Wednesday",
+    "Thursday", "Friday", "Saturday", "Sunday"
+};
+
 void datetime_parse(char *datestr, char *timestr) {
     char *_month = datestr;
     char *_date  = datestr + 4;
@@ -22,32 +34,12 @@ void datetime_parse(char *datestr, char *timestr) {
     _curr_datetime->minutes = atoi(_minutes);
     _curr_datetime->seconds = atoi(_seconds);
 
-    if (memcmp("Jan", _month, 3) == 0) {
-        _curr_datetime->month = 1;
-    } else if (memcmp("Feb", _month, 3) == 0) {
-        _curr_datetime->month = 2;
-    } else if (memcmp("Mar", _month, 3) == 0) {
-        _curr_datetime->month = 3;
-    } else if (memcmp("Apr", _month, 3) == 0) {
-        _curr_datetime->month = 4;
-    } else if (memcmp("May", _month, 3) == 0) {
-        _curr_datetime->month = 5;
-    } else if (memcmp("Jun", _month, 3) == 0) {
-        _curr_datetime->month = 6;
-    } else if (memcmp("Jul", _month, 3) == 0) {
-        _curr_datetime->month = 7;
-    } else if (memcmp("Aug", _month, 3) == 0) {
-        _curr_datetime->month = 8;
-    } else if (memcmp("Sep", _month, 3) == 0) {
-        _curr_datetime->month = 9;
-    } else if (memcmp("Oct", _month, 3) == 0) {
-        _curr_datetime->month = 10;
-    } else if (memcmp("Nov", _month, 3) == 0) {
-        _curr_datetime->month = 11;
-    } else if (memcmp("Dec", _month, 3) == 0) {
-        _curr_datetime->month = 12;
-    } else {
-        _curr_datetime->month = 0;
+    _curr_datetime->day = DAY_Sunday;
+    for (uint8_t i = 1; i <= 12; i++) {
+        if (memcmp(months[i], _month, 3) == 0) {
+            _curr_datetime->month = i;
+            return;
+        }
     }
 }
 
@@ -67,9 +59,11 @@ void datetime_write() {
     rtc->set_month(_curr_datetime->month);
     rtc->set_year(_curr_datetime->year);
     rtc->set_day((BQ32000::DayOfWeek) _curr_datetime->day);
+    rtc->write_buffer();
 }
 
 void datetime_read() {
+    rtc->read_buffer();
     _curr_datetime->seconds = rtc->get_seconds();
     _curr_datetime->minutes = rtc->get_minutes();
     _curr_datetime->hours   = rtc->get_hours();

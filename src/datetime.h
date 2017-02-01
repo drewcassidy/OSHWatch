@@ -28,6 +28,9 @@ struct datetime_t {
 
 extern datetime_t *_curr_datetime;
 
+extern const char* months[13];
+extern const char* days[8];
+
 void datetime_parse(char *datestr, char *timestr);
 
 void datetime_increment(uint8_t seconds);

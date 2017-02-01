@@ -29,10 +29,9 @@ int main() {
     // write current time to rtc
     datetime_parse((char *) __DATE__, (char *) __TIME__);
     datetime_write();
-    wait(0.01); //I cant send an email more than 500 miles
 
     // initialize display
-    display->init();
+    display->init(0x2F);
 
     // attach ticker to tick()
     _ticker.attach(tick, 1.0 / TICK_FREQ);

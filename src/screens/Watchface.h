@@ -9,6 +9,8 @@
 
 namespace OSHWatch {
 
+extern const uint8_t *digits[10];
+
 class Watchface : public Screen {
 public:
     Watchface();
@@ -18,8 +20,7 @@ public:
     void processInput(uint8_t button);
 
 private:
-    const uint8_t *getDigit(uint8_t value);
-    bool _colon = false;
+    bool _colon = true;
 };
 }
 
